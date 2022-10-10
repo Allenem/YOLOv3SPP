@@ -1,0 +1,21 @@
+.history/
+__pycache__/
+
+# 下载的VOC数据集
+data/VOCdevkit/
+# 自动生成的文件
+data/my_data.data
+data/my_data_label.names
+data/my_train_data.shapes
+data/my_train_data.txt
+data/my_val_data.shapes
+data/my_val_data.txt
+
+# 自动生成的训练，验证文件夹
+my_yolo_dataset/
+
+# 自动生成的模型配置文件
+cfg/my_yolov3.cfg
+
+# 下载的权重文件
+weights/
